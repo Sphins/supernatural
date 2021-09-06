@@ -1,0 +1,63 @@
+.app,
+.chat-message,
+#chat-form textarea {
+    background: rgba(255, 255, 255, 0.6);
+    color: #000000
+}
+
+.window-app .window-content {
+    background: rgba(255, 255, 255, 1);
+    background-image: url(image/LOGO2.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+label,
+div,
+textarea,
+caption {
+    font-size: 15px;
+}
+
+input:focus {
+    background-color: rgba(14, 218, 75, 0.609);
+}
+
+.Vie {
+    display: inline-block;
+    vertical-align: top;
+    border: 10px rgba(0, 0, 0, 0.609) double;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10PX;
+    width: 15%;
+    min-width: 100px;
+}
+
+.background {
+    display: inline-block;
+    vertical-align: top;
+    border: 10px rgba(0, 0, 0, 0.609) double;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10PX;
+    width: 75%;
+    min-width: 200px;
+    overflow: auto;
+}
+
+.attributs {
+    display: inline-block;
+    vertical-align: top;
+    border: 10px rgba(0, 0, 0, 0.609) double;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10PX;
+    width: 30%;
+    min-width: 200px;
+}
+
+.tableau {
+    width: 100%
+}

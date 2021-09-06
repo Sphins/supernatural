@@ -1,0 +1,203 @@
+{
+    "Actor": {
+        "types": "pj",
+
+        "pj": {
+            "concept": "",
+            "armes": [],
+            "comp": [],
+            "background": "",
+            "description": "",
+            "pvactuel": "",
+            "pvmax": "",
+            "equipement": "",
+            "notes": "",
+            "attributs": {
+                "artisanat": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "arts": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "athletisme": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "combat": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "compréhension": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "contact": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "corps": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "guerison": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "nature": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "possesions": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "psyché": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "savoir": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "social": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "technique": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "Vehicules": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                },
+                "langues": {
+                    "valeur": "",
+                    "competence": {
+                        "cmp1": "",
+                        "cmp2": "",
+                        "cmp3": "",
+                        "cmp4": "",
+                        "cmp5": ""
+                    }
+                }
+            }
+        }
+    },
+    "Item": {
+        "types": [
+            "arme",
+            "competences"
+        ],
+        "arme": {
+            "descritpiton": "",
+            "degats": "",
+            "effets": ""
+        },
+        "competence": {
+            "atributs": {
+                "valeur": "",
+                "competence": {
+                    "cmp1": "",
+                    "cmp2": "",
+                    "cmp3": "",
+                    "cmp4": "",
+                    "cmp5": ""
+                }
+            }
+        }
+    }
+
+}

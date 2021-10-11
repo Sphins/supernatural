@@ -1,8 +1,11 @@
-.app,
+.app{
+    background: rgba (255, 255, 255,0.6);
+    color: #ffffff
+}
 .chat-message,
 #chat-form textarea {
     background: rgba (255, 255, 255,0.6);
-    color: #ffffff
+    color: #000000
 }
 
 .window-app .window-content {

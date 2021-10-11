@@ -30,7 +30,7 @@ export default class supernaturalActorSheet extends ActorSheet {
         const effets = event.currentTarget.dataset["effets"];
         const name = event.currentTarget.dataset["name"];
         const texte = "Dégats " + name + " : " + jetDdeg + " " + effets;
-        let roll = new Roll(jetDdeg).roll();
+        let roll = new Roll(jetDdeg);
         roll.roll().toMessage({
             speaker: ChatMessage.getSpeaker({ actor: this.actor }),
             flavor: texte

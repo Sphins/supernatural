@@ -1,3 +1,10 @@
+.form-fields, 
+.fa-folder-plus, 
+.fa-eye-slash
+{ 
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .app{
     background: rgba (255, 255, 255,0.6);
     color: #ffffff
@@ -8,12 +15,13 @@
     color: #000000
 }
 
-.window-app .window-content {
-    background: rgba(255, 255, 255, 1);
-    background-image: url(image/LOGO2.png);
+.editable{
+    background: rgba(255, 255, 255, 0.75);
+    background-image: url(image/LOGO2.png) ;
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 25%;
+    opacity:0.75 ;
 }
 
 label,

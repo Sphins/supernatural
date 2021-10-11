@@ -1,8 +1,8 @@
 .app,
 .chat-message,
 #chat-form textarea {
-    background: rgba(255, 255, 255, 0.6);
-    color: #000000
+    background: rgba (255, 255, 255,0.6);
+    color: #ffffff
 }
 
 .window-app .window-content {
@@ -27,37 +27,45 @@ input:focus {
 .Vie {
     display: inline-block;
     vertical-align: top;
-    border: 10px rgba(0, 0, 0, 0.609) double;
+    border: 10px rgba(38, 121, 66, 0.609) double;
     border-radius: 15px;
     padding: 10px;
     margin: 10PX;
     width: 15%;
     min-width: 100px;
+    background-color: rgba(255, 255, 255, 1);  
+
 }
 
 .background {
     display: inline-block;
     vertical-align: top;
-    border: 10px rgba(0, 0, 0, 0.609) double;
+    border: 10px rgba(38, 121, 66, 0.609) double;
     border-radius: 15px;
     padding: 10px;
     margin: 10PX;
     width: 75%;
     min-width: 200px;
     overflow: auto;
+    background-color: rgba(255, 255, 255, 1);  
+
 }
 
 .attributs {
     display: inline-block;
     vertical-align: top;
-    border: 10px rgba(0, 0, 0, 0.609) double;
+    border: 10px rgba(38, 121, 66, 0.609) double;
     border-radius: 15px;
     padding: 10px;
     margin: 10PX;
     width: 30%;
     min-width: 200px;
+    background-color: rgba(255, 255, 255, 1);  
+
 }
 
 .tableau {
-    width: 100%
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);  
+    border: 10px rgba(38, 121, 66, 0.609) double;
 }

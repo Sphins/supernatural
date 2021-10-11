@@ -30,7 +30,7 @@ export default class supernaturalActorSheet extends ActorSheet {
         const effets = event.currentTarget.dataset["effets"];
         const name = event.currentTarget.dataset["name"];
         const texte = "Dégats " + name + " : " + jetDdeg + " " + effets;
-        let roll = new Roll(jetDdeg);
+        let roll = new Roll(jetDdeg).roll();
         roll.roll().toMessage({
             speaker: ChatMessage.getSpeaker({ actor: this.actor }),
             flavor: texte
@@ -52,7 +52,7 @@ export default class supernaturalActorSheet extends ActorSheet {
         let d = Dialog.confirm({
             title: "Suppression d'élément",
             content: "<p>Confirmer la suppression de '" + item.name + "'.</p>",
-            yes: () => this.actor.deleteOwnedItem(item._id),
+            yes: () => this.actor.deleteOwnedItem(item.id),
             no: () => {},
             defaultYes: false
         });

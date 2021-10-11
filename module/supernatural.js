@@ -2,7 +2,7 @@ import supernaturalItemSheet from "./sheet/supernaturalitemsheet.js";
 import supernaturalActorSheet from "./sheet/supernaturalactorsheet.js";
 
 Hooks.once("init", () => {
-    console.log("supernatural | Initialisation du système Fil d'argent");
+    console.log("supernatural | Initialisation du système Supernatural");
 
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("supernatural", supernaturalItemSheet, { makeDefault: true });

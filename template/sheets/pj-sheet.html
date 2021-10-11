@@ -8,34 +8,34 @@
         <!---vie-->
         <p class="Vie">
             <label>Santé
-        <input name="data.pvactuel" type="text" value="{{data.pvactuel}}"/>
-        <input name="data.pvmax" type="text" value="{{data.pvmax}}"/>
+        <input name="data.pvactuel" type="text" value="{{data.data.pvactuel}}"/>
+        <input name="data.pvmax" type="text" value="{{data.data.pvmax}}"/>
     </label>
         </p>
         <!--background-->
 
         <P class="background">
             <label>concept
-            <textarea name="data.concept">{{data.concept}}</textarea>
+            <textarea name="data.concept">{{data.data.concept}}</textarea>
         </label>
 
             <label>background
-            <textarea name="data.background">{{data.background}}</textarea>
+            <textarea name="data.background">{{data.data.background}}</textarea>
         </label>
 
             <label>description
-            <textarea name="data.description">{{data.description}}</textarea>
+            <textarea name="data.description">{{data.data.description}}</textarea>
         </label>
 
             <label>notes
-            <textarea name="data.notes">{{data.notes}}</textarea>
+            <textarea name="data.notes">{{data.data.notes}}</textarea>
         </label>
         </P>
     </p>
 
     <!-- attribut et competence -->
 
-    {{#each data.attributs as |attribut attnom|}}
+    {{#each data.data.attributs as |attribut attnom|}}
     <div class="attributs">
         <label>{{attnom}}</label>
         <input name="data.attributs.{{attnom}}.valeur" type="text" value="{{attribut.valeur}}" placeholder="" />
@@ -63,14 +63,14 @@
             <th>effets</th>
             <th></th>
         </tr>
-        {{#each actor.items as |item key|}}
-        <tr class="item" data-item-id="{{item._id}}">
+        {{#each actor.data.items as |item key|}}
+        <tr class="item" data-item-id="{{item.id}}">
             <td><img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="32" width="32" /></td>
             <td>{{item.name}}</td>
-            <td>{{item.data.degats}}</td>
-            <td>{{item.data.effets}}</td>
+            <td>{{item.data.data.degats}}</td>
+            <td>{{item.data.data.effets}}</td>
             <td>
-                <a class="jetdedeg" data-dicedeg="{{item.data.degats}}" data-name="{{item.name}}" data-effets={{item.data.effets}}><i class="fas fa-dice"></i></a>
+                <a class="jetdedeg" data-dicedeg="{{item.data.data.degats}}" data-name="{{item.name}}" data-effets={{item.data.data.effets}}><i class="fas fa-dice"></i></a>
                 <a class="item-edit" title="Edit Item"><i class="fas fa-edit"></i></a>
                 <a class="item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
             </td>

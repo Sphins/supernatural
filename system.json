@@ -16,8 +16,8 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "",
     "secondaryTokenAttribute": "",
-    "url": "",
-    "manifest": "",
-    "download": "",
+    "url": "https://github.com/Sphins/supernatural",
+    "manifest": "https://raw.github.com/Sphins/supernatural/master/system.json",
+    "download": "https://github.com/Sphins/supernatural/archive/refs/heads/master.zip",
     "license": "LICENSE.txt"
 }

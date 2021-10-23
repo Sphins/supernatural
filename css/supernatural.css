@@ -80,3 +80,7 @@ input:focus {
     background-color: rgba(255, 255, 255, 1);  
     border: 10px rgba(38, 121, 66, 0.609) double;
 }
+
+p {
+    width: 100%
+}
